@@ -37,10 +37,47 @@ img, video {
   padding-bottom: 12px;
 }
 
-.h1 {
-  max-width: 100px;
+h1 {
+  max-width: 200px;
   margin: 0 auto;
   display: block;
+}
+
+.nav {
+  text-align: center;
+  display: block;
+}
+
+.intro-title {
+  text-align: left;
+  color: #000;
+  font-family: Space Grotesk;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.image-1 {
+  width: 649px;
+}
+
+.intro {
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+
+.offre {
+  color: #000;
+  text-transform: uppercase;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: Space Grotesk;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
 }
 
 .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
