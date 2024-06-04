@@ -96,3 +96,33 @@ h1 {
   line-height: normal;
   text-transform: uppercase;
 }
+
+.description {
+  text-align: center;
+}
+
+.description-info {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(85, 52, 10);
+}
+
+.image-sylvain {
+  max-width: 330px;
+}
+
+body {
+  background-color: aqua;
+}
+
+.p .about {
+  margin-right: 400px;
+}

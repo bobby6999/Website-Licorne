@@ -80,6 +80,36 @@ h1 {
   display: flex;
 }
 
+.description {
+  text-align: center;
+}
+
+.description-info {
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.about {
+  background-color: #55340a;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+}
+
+.image-sylvain {
+  max-width: 330px;
+}
+
+body {
+  background-color: #0ff;
+}
+
+.p .about {
+  margin-right: 400px;
+}
+
 .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
