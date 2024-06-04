@@ -108,21 +108,55 @@ h1 {
   justify-content: space-evenly;
 }
 
+h3 {
+  color: #000;
+  font-family: "Space Grotesk";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 .about {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: rgb(85, 52, 10);
 }
 
 .image-sylvain {
   max-width: 330px;
 }
 
-body {
-  background-color: aqua;
+.about p {
+  margin-right: 260px;
+  color: #000;
+  font-family: "Space Grotesk";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
 
-.p .about {
-  margin-right: 400px;
+.avis {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around;
+  flex-wrap: wrap;
+  color: #000;
+  text-align: center;
+  font-family: "Space Grotesk";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.avis .comment {
+  text-align: center;
+  padding: 0 260px;
+}
+
+.avis a {
+  text-decoration-line: underline;
 }

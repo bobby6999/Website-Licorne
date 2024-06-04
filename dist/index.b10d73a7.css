@@ -91,8 +91,16 @@ h1 {
   display: flex;
 }
 
+h3 {
+  color: #000;
+  font-family: Space Grotesk;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 .about {
-  background-color: #55340a;
   flex-direction: row;
   justify-content: space-between;
   display: flex;
@@ -102,12 +110,37 @@ h1 {
   max-width: 330px;
 }
 
-body {
-  background-color: #0ff;
+.about p {
+  color: #000;
+  margin-right: 260px;
+  font-family: Space Grotesk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
 
-.p .about {
-  margin-right: 400px;
+.avis {
+  color: #000;
+  text-align: center;
+  flex-flow: column wrap;
+  align-content: space-around;
+  align-items: center;
+  font-family: Space Grotesk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  display: flex;
+}
+
+.avis .comment {
+  text-align: center;
+  padding: 0 260px;
+}
+
+.avis a {
+  text-decoration-line: underline;
 }
 
 .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
