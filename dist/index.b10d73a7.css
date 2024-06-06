@@ -134,17 +134,55 @@ h3 {
   display: flex;
 }
 
-.avis .comment {
+.avis-person .comment {
   text-align: center;
-  padding: 0 260px;
+  padding: 0 150px;
 }
 
-.avis a {
+.avis-person a {
   text-decoration-line: underline;
 }
 
-.newsletter {
+.newsletter h3 {
   text-align: center;
+}
+
+.newsletter p {
+  color: #000;
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.formulaire {
+  color: #000;
+  flex-direction: row;
+  justify-content: center;
+  font-family: Space Grotesk;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+}
+
+form[action="/newsletter"] {
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+}
+
+.nav-icons {
+  text-align: center;
+  max-width: 24px;
+}
+
+.footer-section {
+  flex-direction: column;
+  display: flex;
 }
 
 .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
