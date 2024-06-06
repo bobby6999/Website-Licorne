@@ -31,8 +31,8 @@ img, video {
 }
 
 .row > .col, .row > [class^="col-"] {
-  background-color: #563d7c26;
-  border: 1px solid #563d7c33;
+  background-color: #f1f1f1;
+  border: 1px solid #a4a0a0;
   padding-top: 12px;
   padding-bottom: 12px;
 }
@@ -148,6 +148,18 @@ h3 {
   text-decoration-line: underline;
 }
 
+.review {
+  flex-direction: rows;
+  display: flex;
+}
+
+.img-pint img {
+  max-width: 220%;
+  position: relative;
+  top: 3px;
+  left: 20px;
+}
+
 .newsletter h3 {
   text-align: center;
 }
@@ -189,6 +201,16 @@ form[action="/newsletter"] {
   flex-flow: row;
   align-items: center;
   display: flex;
+}
+
+.img-team {
+  width: 140%;
+  max-width: 100%;
+  height: auto;
+}
+
+.team p {
+  margin: 80px;
 }
 
 .footer-section {

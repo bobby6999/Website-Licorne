@@ -47,9 +47,10 @@ video {
 .row > [class^="col-"] {
   padding-top: 12px;
   padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
+  background-color: #f1f1f1;
+  border: 1px solid #a4a0a0;
 }
+
 /* ====================================
 // base rules
 // ==================================== */
@@ -165,6 +166,18 @@ h3 {
   text-decoration-line: underline;
 }
 
+.review {
+  display: flex;
+  flex-direction: rows;
+}
+
+.img-pint img {
+  max-width: 220%;
+  position: relative;
+  top: 3px;
+  left: 20px;
+}
+
 .newsletter h3 {
   text-align: center;
 }
@@ -207,6 +220,16 @@ form[action="/newsletter"] {
   flex-direction: row;
   align-items: center;
   flex-wrap: nowrap;
+}
+
+.img-team {
+  width: 140%;
+  max-width: 100%;
+  height: auto;
+}
+
+.team p {
+  margin: 80px;
 }
 
 .footer-section {
