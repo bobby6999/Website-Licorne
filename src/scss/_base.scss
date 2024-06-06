@@ -54,6 +54,10 @@ video {
 // base rules
 // ==================================== */
 
+body {
+  font-family: "Space Grotesk";
+  background-color: #f1f1f1;
+}
 h1 {
   display: block;
   margin: 0 auto;
@@ -198,7 +202,31 @@ form[action="/newsletter"] {
   text-align: center;
 }
 
+.team {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
 .footer-section {
   display: flex;
   flex-direction: column;
+}
+
+.form-control {
+  background-color: transparent;
+  border: 3px solid black;
+  color: black;
+}
+
+.img-footer {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-footer img {
+  max-height: 100%;
 }

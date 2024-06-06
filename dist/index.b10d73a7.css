@@ -37,6 +37,11 @@ img, video {
   padding-bottom: 12px;
 }
 
+body {
+  background-color: #f1f1f1;
+  font-family: Space Grotesk;
+}
+
 h1 {
   max-width: 200px;
   margin: 0 auto;
@@ -180,9 +185,32 @@ form[action="/newsletter"] {
   max-width: 24px;
 }
 
+.team {
+  flex-flow: row;
+  align-items: center;
+  display: flex;
+}
+
 .footer-section {
   flex-direction: column;
   display: flex;
+}
+
+.form-control {
+  color: #000;
+  background-color: #0000;
+  border: 3px solid #000;
+}
+
+.img-footer {
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  display: flex;
+}
+
+.img-footer img {
+  max-height: 100%;
 }
 
 .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
