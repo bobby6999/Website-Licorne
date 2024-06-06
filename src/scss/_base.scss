@@ -43,13 +43,13 @@ video {
   margin-top: 16px;
 }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: #f1f1f1;
-  border: 1px solid #a4a0a0;
-}
+// .row > .col,
+// .row > [class^="col-"] {
+//   padding-top: 12px;
+//   padding-bottom: 12px;
+//   background-color: #f1f1f1;
+//   border: 1px solid #a4a0a0;
+// }
 
 /* ====================================
 // base rules
@@ -62,7 +62,8 @@ body {
 h1 {
   display: block;
   margin: 0 auto;
-  max-width: 200px;
+  max-width: 240px;
+  padding-bottom: 70px;
 }
 
 .nav {
@@ -70,6 +71,11 @@ h1 {
   text-align: center;
 }
 
+.nav-practical {
+  padding: 30px 0;
+  display: flex;
+  flex-direction: row;
+}
 .intro-title {
   text-align: left;
   color: #000;
@@ -80,13 +86,16 @@ h1 {
 }
 
 .image-1 {
-  width: 649px;
+  width: 228px;
+  margin-right: 270px;
 }
 
 .intro {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin: -140px;
+  padding-bottom: 80px;
 }
 
 .offre {
@@ -100,6 +109,8 @@ h1 {
   font-weight: 500;
   line-height: normal;
   text-transform: uppercase;
+  border: 2px black solid;
+  margin: 0 -130px;
 }
 
 .description {
@@ -111,6 +122,18 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.bottles {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 80px 0 100px 0;
+}
+
+.beer-card {
+  margin: 0 20px 0 20px;
 }
 
 h3 {
@@ -226,6 +249,13 @@ form[action="/newsletter"] {
   width: 140%;
   max-width: 100%;
   height: auto;
+}
+
+.img-brewery img {
+  position: relative;
+  bottom: 43px;
+  max-width: 280%;
+  right: 196px;
 }
 
 .team p {

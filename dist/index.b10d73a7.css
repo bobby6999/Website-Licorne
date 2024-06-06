@@ -30,27 +30,27 @@ img, video {
   margin-top: 16px;
 }
 
-.row > .col, .row > [class^="col-"] {
-  background-color: #f1f1f1;
-  border: 1px solid #a4a0a0;
-  padding-top: 12px;
-  padding-bottom: 12px;
-}
-
 body {
   background-color: #f1f1f1;
   font-family: Space Grotesk;
 }
 
 h1 {
-  max-width: 200px;
+  max-width: 240px;
   margin: 0 auto;
+  padding-bottom: 70px;
   display: block;
 }
 
 .nav {
   text-align: center;
   display: block;
+}
+
+.nav-practical {
+  flex-direction: row;
+  padding: 30px 0;
+  display: flex;
 }
 
 .intro-title {
@@ -63,20 +63,25 @@ h1 {
 }
 
 .image-1 {
-  width: 649px;
+  width: 228px;
+  margin-right: 270px;
 }
 
 .intro {
   flex-direction: row;
   align-items: center;
+  margin: -140px;
+  padding-bottom: 80px;
   display: flex;
 }
 
 .offre {
   color: #000;
   text-transform: uppercase;
+  border: 2px solid #000;
   flex-direction: row;
   justify-content: space-around;
+  margin: 0 -130px;
   font-family: Space Grotesk;
   font-size: 30px;
   font-style: normal;
@@ -94,6 +99,18 @@ h1 {
   flex-direction: row;
   justify-content: space-evenly;
   display: flex;
+}
+
+.bottles {
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 80px 0 100px;
+  display: flex;
+}
+
+.beer-card {
+  margin: 0 20px;
 }
 
 h3 {
@@ -207,6 +224,13 @@ form[action="/newsletter"] {
   width: 140%;
   max-width: 100%;
   height: auto;
+}
+
+.img-brewery img {
+  max-width: 280%;
+  position: relative;
+  bottom: 43px;
+  right: 196px;
 }
 
 .team p {
