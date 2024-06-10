@@ -229,6 +229,20 @@ form[action="/newsletter"] {
   height: 27.27px;
 }
 
+.button-send-custom {
+  cursor: pointer;
+  text-indent: -9999px;
+  background-image: url("send-bttn.c82d55ba.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  width: 36px;
+  height: 27.27px;
+  margin: 0;
+  padding: 0;
+}
+
 .nav-icons {
   text-align: center;
   max-width: 24px;
@@ -294,6 +308,7 @@ form[action="/newsletter"] {
 }
 
 input[type="button"] {
+  text-indent: -9999px;
   background-color: #0000;
   border: none;
   width: 35px;

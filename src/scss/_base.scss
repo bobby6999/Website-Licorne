@@ -253,6 +253,20 @@ form[action="/newsletter"] {
   height: 27.27px;
 }
 
+.button-send-custom {
+  width: 36px;
+  height: 27.27px;
+  background-image: url("/src/img/send-bttn.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  text-indent: -9999px;
+}
+
 .nav-icons {
   max-width: 24px;
   text-align: center;
@@ -328,6 +342,7 @@ input[type="button"] {
   height: 27.27px;
   background-color: transparent;
   border: none;
+  text-indent: -9999px;
 }
 
 .img-footer {
