@@ -182,13 +182,19 @@ h3 {
   left: 20px;
 }
 
+.newsletter {
+  margin: 0 0 160px;
+}
+
 .newsletter h3 {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .newsletter p {
   color: #000;
   text-align: center;
+  margin-bottom: 20px;
   font-family: Space Grotesk;
   font-size: 24px;
   font-style: normal;
@@ -212,6 +218,15 @@ form[action="/newsletter"] {
   flex-direction: row;
   justify-content: center;
   display: flex;
+}
+
+.button-send {
+  background-image: url("send-bttn.c82d55ba.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 36px;
+  height: 27.27px;
 }
 
 .nav-icons {
@@ -252,9 +267,37 @@ form[action="/newsletter"] {
 }
 
 .form-control {
-  color: #000;
+  color: #41403e;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  box-sizing: border-box;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
   background-color: #0000;
-  border: 3px solid #000;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat-x;
+  background-size: 4px 3px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 255px 15px 225px / 15px 225px 15px 255px;
+  outline: none;
+  align-self: center;
+  margin-right: 10px;
+  padding: 4px;
+  font-family: Space Grotesk;
+  text-decoration: none;
+  transition: all .235s ease-in-out;
+  display: inline-block;
+  box-shadow: 15px 28px 25px -18px #0003;
+}
+
+input[type="button"] {
+  background-color: #0000;
+  border: none;
+  width: 35px;
+  height: 27.27px;
 }
 
 .img-footer {
@@ -268,7 +311,7 @@ form[action="/newsletter"] {
   max-height: 100%;
 }
 
-.button-custom {
+.valeurs .button-custom {
   border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
   box-sizing: border-box;
   color: #41403e;
@@ -287,6 +330,7 @@ form[action="/newsletter"] {
   outline: none;
   align-self: center;
   padding: .75rem;
+  font-family: Space Grotesk;
   text-decoration: none;
   transition: all .235s ease-in-out;
   display: inline-block;
@@ -300,6 +344,31 @@ form[action="/newsletter"] {
 
 .button-custom:focus {
   box-shadow: 2px 8px 4px -6px #0000004d;
+}
+
+.img-estavayer {
+  padding: 90px 10px;
+}
+
+.valeurs {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  font-family: Space Grotesk, sans-serif;
+  display: flex;
+}
+
+.valeurs h3, .valeurs p {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.img-producteur {
+  max-width: 160px;
+  position: relative;
+  bottom: 260px;
+  left: 470px;
 }
 
 .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
