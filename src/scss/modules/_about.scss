@@ -1,0 +1,15 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about p {
+  margin-right: 260px;
+  color: #000;
+  font-family: "Space Grotesk";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
