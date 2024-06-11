@@ -1,0 +1,36 @@
+.avis {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around;
+  flex-wrap: wrap;
+  color: #000;
+  text-align: center;
+  font-family: "Space Grotesk";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.avis-person .comment {
+  text-align: center;
+  padding: 0 150px;
+  margin-bottom: 40px;
+}
+
+.avis-person p {
+  margin-bottom: 30px;
+}
+
+.team p {
+  margin: 80px;
+}
+
+.avis-person a {
+  text-decoration-line: underline;
+}
+
+.avis-person a:hover {
+  font-weight: 800;
+}

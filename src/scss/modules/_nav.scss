@@ -1,0 +1,24 @@
+.nav {
+  display: block;
+  text-align: center;
+}
+
+.nav-practical {
+  padding: 30px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-icons {
+  max-width: 24px;
+  text-align: center;
+}
+
+// .nav-link:hover {
+//   color: red;
+//   display: block;
+//   text-align: center;
+//   padding: 30px 0;
+//   display: flex;
+//   flex-direction: row;
+// }
