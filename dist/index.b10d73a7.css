@@ -5161,6 +5161,12 @@ a:hover {
   left: 20px;
 }
 
+.img-beer {
+  max-width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+
 .valeurs .button-custom {
   border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
   box-sizing: border-box;
